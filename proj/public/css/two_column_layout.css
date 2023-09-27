@@ -1,0 +1,65 @@
+/** two_column_layout.css */
+
+.two-col-layout {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width:900px;
+    margin: 0 auto;
+}
+
+.two-col-layout > .main {
+    width: calc(100% / 16 * 12); /* 12/16 width */
+}
+
+.two-col-layout > .aside {
+    width: calc(100% / 16 * 4); /* 4/16 width */
+}
+
+
+.aside {
+    background-color: rgba(255, 255, 255, 0.5);
+    border-right: 1px solid #ccc;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 24px;
+}
+
+.aside h4 {
+    border-bottom: 1px solid #ccc;
+}
+
+.two-col-layout-left {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    max-width:986px;
+    margin: 0 auto;
+}
+
+.aside-left {
+    background-color: rgba(255, 255, 255, 0.5);
+    border-left: 1px solid #ccc;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 24px;
+}
+
+.aside p {
+    font-size: 18px;
+    font-family:Calibri, Myriad, Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.aside-left p {
+    font-size: 18px;
+    font-family:Calibri, Myriad, Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.aside h1 {
+    font-size: 1.5em;
+    border-bottom: 4px double #ccc;
+    font-family:Calibri, Myriad, Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.aside-left h1 {
+    font-size: 1.5em;
+    border-bottom: 4px double #ccc;
+    font-family:Calibri, Myriad, Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}

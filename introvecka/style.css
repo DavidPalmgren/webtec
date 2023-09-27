@@ -1,0 +1,21 @@
+body {
+    background-color:red
+}
+
+main {
+    background-color: whitesmoke;
+}
+
+h6 {
+    font-size: 6em;
+    color: blue;
+    border-bottom: 5px dotted rgb(188, 18, 211);
+}
+
+h3 {
+    color: blue;
+}
+
+p {
+    color: blue
+}

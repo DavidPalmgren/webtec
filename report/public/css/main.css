@@ -1,0 +1,60 @@
+/** main.css */
+
+/*
+ * Set colors and size.
+ */
+ body {
+    background-image: url(../img/bgpaper.jpg);
+    background-color: #eee;
+}
+
+.main {
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.article {
+    overflow: auto;
+    background: #fff;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.article h1 {
+    font-size: 2em;
+    border-bottom: 4px double #ccc;
+    font-family:Calibri, Myriad, Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif; /*Arial, Helvetica, sans-serif; */
+}
+
+.article p {
+    font-size: 18px;
+    font-family:Calibri, Myriad, Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.article .author {
+    margin-top: -1em;
+    font-size: 0.8em;
+    color: #666;
+    font-style: italic;
+}
+
+
+/* minimum height
+*/
+
+.main,
+.main .article {
+    min-height: 20em;
+}
+div.success {
+    background-color: greenyellow;
+    height: 100px;
+    font-size: 25px;
+}
+div.failure {
+    background-color: rgb(196, 51, 32);
+    height: 100px;
+    font-size: 25px;
+}

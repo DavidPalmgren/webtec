@@ -1,0 +1,44 @@
+html {
+    background-color: rgb(73, 0, 0);
+    border: 8px solid rgb(0, 0, 0);
+}
+
+body {
+    background-color:#2e475d;
+    border: 4px solid rgb(0, 0, 0);
+    font-style:normal;
+    font-weight:bold;
+    font-size:24px;
+    color:red;
+}
+
+main {
+    margin: 0 auto;
+    max-width: 800px;
+
+    padding: 0.5em;
+
+    border: 4px solid #CCC;
+    background-color: #F2F2F2;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: #00ccff;
+  }
+  
+a:visited {
+    color: rgb(184, 0, 113);
+  }
+
+a:hover {
+    color: rgb(255, 255, 255);
+  }
+
+p {
+    font-style:normal;
+    font-weight:bold;
+    font-size:24px;
+    color:red;
+}

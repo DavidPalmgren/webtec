@@ -1,0 +1,23 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+/**
+* Parts from
+* https://github.com/necolas/normalize.css/blob/master/normalize.css
+*/
+html {
+  line-height: 1.15;
+}
+
+body {
+  margin: 0;
+}
+
+
+body {
+  overflow-y: scroll;    /* Always display scrollbar, avoid hopping pages */
+}

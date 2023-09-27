@@ -1,0 +1,22 @@
+.byline {
+    background: linear-gradient(to right, rgb(96, 197, 255), rgb(255, 255, 255));
+    overflow: auto;
+}
+
+.byline.figure {
+    border:none;
+}
+
+.byline p::first-letter {
+    font-size: 2em;
+    color: rgb(0, 56, 121);
+}
+
+.byline p::first-line {
+    color: rgb(0, 56, 121);
+}
+/* bylinen ligger väl inom artiklen i min rapport men kan va bra att ha här endå typ */
+.byline p {
+    font-size: 18px;
+    font-family:Calibri, Myriad, Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}

@@ -1,0 +1,62 @@
+
+/** navbar.css */
+
+/*
+background: linear-gradient(to bottom, #666, #000);
+    color: #FFF;asdasdasdsda font-size: 1.2em;
+ * Add colors and borders.
+ */
+ .navbar {
+    background: linear-gradient(to bottom, rgb(8, 100, 0), rgba(99, 221, 0, 0.637));
+    color: #FFF;
+    line-height: 60px;
+    border-top: 4px solid #000000;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+/*
+ * Style links.
+ */
+.navbar a {
+    display: inline-block;
+    padding: 0.2em 0.5em;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color: #EEE;
+    background-color: #20b1c4;
+}
+
+/*
+ * Remove bullets, margins and padding from the list.
+ */
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Put the li items on a line.
+ */
+.navbar li {
+    display: inline;
+}
+
+.navbar .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.navbar .row > .col3 {
+    width: calc(100% / 3);
+}
+
+.navbar .row > .col1 {
+    width: 100%;
+}

@@ -1,0 +1,45 @@
+
+ .footer {
+    color: rgb(42, 124, 49);
+    padding: 0 1em;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+}
+
+
+html {
+    background-color: #eee
+}
+
+.footer a {
+    color: rgb(74, 174, 192);
+}
+
+.footer a:hover {
+    color: #20b1c4;
+    text-decoration: none;
+}
+
+.box h4 {
+    border-bottom: 2px solid #fff;
+}
+
+.final {
+    text-align: center;
+}
+
+.footer .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.footer .row > .col3 {
+    width: calc(100% / 3);
+}
+
+.footer .row > .col1 {
+    width: 100%;
+}

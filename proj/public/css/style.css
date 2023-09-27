@@ -1,0 +1,29 @@
+@import "init.css";
+@import "navbar.css";
+@import "header.css";
+@import "footer.css";
+@import "main.css";
+@import "figure.css";
+@import "byline.css";
+@import "two_column_layout.css";
+@import "responsive.css";
+@import "table.css";
+@import "flash.css";
+form {
+    background-color: rgb(212, 212, 212);
+}
+a.login {
+    color: rgb(255, 255, 255)
+}
+a.page {
+    font-size:30px;
+    text-align: left;
+    text-decoration: none;
+    float: right;
+}
+a.page2 {
+    font-size:30px;
+    text-align: right;
+    text-decoration: none;
+    float: left;
+}

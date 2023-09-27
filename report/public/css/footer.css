@@ -1,0 +1,80 @@
+/** footer.css */
+
+/*
+ * Set colors and size.
+ */
+ .footer {
+    background: linear-gradient(to bottom, #226,160,160 rgb(255, 22, 22));
+    color: #FFF;
+    padding: 0 1em;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+}
+
+/* same color as above to prevent stuffs
+*/
+
+html {
+    background-image: url(../img/bgpaper.jpg);
+    background-color: rgb(15, 15, 15);
+}
+
+/*
+ * Style the links.
+ */
+.footer a {
+    color: rgb(201, 201, 201);
+}
+
+.footer a:hover {
+    color: #20b1c4;
+    text-decoration: none;
+}
+
+/*
+ * Style the content.
+ */
+.box h4 {
+    border-bottom: 2px solid #fff;
+}
+
+.final {
+    text-align: center;
+}
+
+/*
+ * Style the rows and columns.
+ */
+.footer .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.footer .row > .col3 {
+    width: calc(100% / 3);
+}
+
+.footer .row > .col1 {
+    width: 100%;
+}
+
+
+
+/**
+ * Add colors to rows and columns to debug and visualize.
+ 
+ .footer .row {
+    background-color: tomato;
+    padding: 1em;
+}
+
+.footer .row > .col1,
+.footer .row > .col3 {
+    background-color: rgb(255, 153, 0);
+    color: Brown;
+    padding: 1em;
+}
+*/

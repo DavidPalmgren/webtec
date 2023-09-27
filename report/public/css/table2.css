@@ -1,0 +1,53 @@
+table.two {
+    border: 2px solid;
+    background-color: rgb(235, 83, 63);
+    font-style: italic;
+    color: rgb(32, 32, 32);
+    font-size: 25px;
+    table-layout: fixed ;
+    width: 75% ;
+    
+    
+}
+ tr {
+    width: 25%;
+    height: 50%;
+}
+tr.month {
+    background-color: rgba(189, 178, 164, 0.637);
+    line-height: 200%;
+    border: 2px solid;
+    width: 25% ;
+}
+td {
+    height: 25%;
+}
+
+td.red {
+    color: rgb(184, 17, 45);
+    border: 2px solid;
+    width: 25% ;
+}
+td.left {
+    text-align: center;
+    border: 2px solid;
+    width: 25% ;
+}
+
+td.redleft {
+    text-align: center;
+    color: rgb(184, 17, 45);
+    border: 2px solid;
+    width: 25% ;
+}
+tr:nth-child(odd) {
+    background-color: rgb(241, 106, 106);
+    width: 25% ;
+}
+
+tr.red {
+    color: rgb(184, 17, 45);
+    border: 2px solid;
+    width: 25% ;
+}
+
